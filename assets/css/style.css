@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Manrope:wght@300;400&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;700;800&family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;800&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:wght@100;200;300&display=swap');
+
+@font-face {
+  font-family: "Billion Stars Personal Use Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Billion Stars Personal Use Regular"),
+    url("BillionStars_PersonalUse.woff") format("woff");
+}
+
+html {
+  font-size: 62.5%; /* 1rem =10px */
+}
+
+body {
+  flex-wrap: wrap;
+  min-width: 100vw;
+  min-height: auto;
+  font-family: "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+  font-size: 15px;
+  font-weight: normal;
+  color: #111;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  height: 100%;
+  gap: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+
+/* span {
+  width: 1px;
+  height: 15px;
+  background-color: #ffffff;
+} */
+
+
+
+i {
+  font-size: 2.5rem;
+  margin-left: 30px;
+  color: #707070;
+  cursor: pointer;
+}
+
+
+.containerImgHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 79vh;
+  z-index: 1;
+}
+
+.logoBG {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 5rem;
+  left: 52%;
+  top: 20%;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #555555;
+}
+
+p {
+  font-weight: 600;
+
+  color: #000000;
+}
+
+
+
+/* @keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+/* @keyframes blink {
+  0% {color: #f9d12d;}
+  50% {color: rgb(200, 200, 226);} 
+  100% {color: #f9d12d;}
+} */
+@keyframes blink {
+  0% {color: #f9d12d;}
+  50% {color: rgba(116, 116, 240, 0.469);} /* couleur intermédiaire modifiée */
+  100% {color: #f92d2d;}
+}
+h2 {
+  font-family: "Billion Stars Personal Use Regular";
+  font-size: 12rem;
+  transform: rotate(-20deg);
+  position: relative;
+  left: 100px;
+  color: #f9d12d;
+  text-shadow:
+  1px 1px 1px #ffffff,
+  -1px 1px 1px #ffffff,
+  -1px -1px 0 #ffffff,
+  1px -1px 0 #ffffff;
+  animation: blink 1.5s infinite;
+}
+
+h3{
+  font-size: 3rem;
+  font-weight: 300;
+  margin-left: 10px;
+  color: #555555;
+}
+
+h4{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 10px;
+ margin-top: 5px;
+ margin-bottom: 0;
+ color: #555555;
+}
+
+h6{
+  width: 100%;
+  height: auto;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.h7{
+  width: 100%;
+  height: auto;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+
+
+.pText{
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #989898;
+}
+
+.pText2{
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #989898;
+}
+
+.prix{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 300;
+  /* margin-left: 10px; */
+  margin-top: 5px;
+}
+
+.promo > img {
+  margin-right: 3%;
+}
+
+#photoHeader,
+.logoBG {
+  position: fixed;
+  top: 150px;
+}

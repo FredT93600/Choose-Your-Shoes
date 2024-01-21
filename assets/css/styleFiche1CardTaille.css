@@ -1,0 +1,110 @@
+/* .container{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+
+} */
+.product {
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 50%;
+    height: 98vh;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; /* Ajoutez cette ligne */
+}
+
+.product h1, .product h2 {
+    margin: 0;
+    text-decoration: none;
+    color: #555555;
+}
+
+.price {
+    color: #4d4d4d;
+    font-size: 1.5em;
+}
+
+.sizes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sizes li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.add-to-cart {
+    font-family: 'Helvetica Neue', sans-serif;
+    display: block;
+    height: 60px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 2rem;
+}
+
+.add-to-cart:hover {
+    background-color: #87878792;
+    
+}
+.add-to-favorites{
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+    font-size: 2rem;    
+}
+
+.add-to-favorites:hover {
+    background-color: #87878792;
+}
+.add-to-favorites:hover .fa-heart {
+    color: red;
+}
+
+
+
+
+.fa-heart {
+    color: #707070;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.sizes {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+.sizes th {
+    border: 1px solid #bebebe;
+    padding: 10px;
+}
+
+table{
+    color: #555555;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/creationCompteUser.css">
+    <link rel="stylesheet" href="/assets/css/profilConnexion.css">
+    <title>Création de compte User</title>
+</head>
+
+<body>
+    <div class="welcome-form">
+        <a href="/index.html"> <img src="/assets/logo/logo_transparent_background.png" alt="Logo" class="logo"></a>
+        <h1>Bonjour</h1>
+        <button type="button">Se connecter</button>
+    </div>
+    <div class="new-user-form">
+        <h2>Je suis nouveau ici</h2>
+        <form>
+            <input type="text" name="firstName" placeholder="Prénom">
+            <input type="text" name="lastName" placeholder="Nom">
+            <input type="date" name="birthDate" placeholder="Date de naissance">
+            <p class="alert">Date de naissance (facultatif)</p>
+            <input type="email" name="email" placeholder="Adresse mail">
+            <input type="password" name="password" placeholder="Mot de passe">
+            <i class="info-icon">Votre mot de passe doit comporter au moins 8 caractères.</i>
+        </form>
+    </div>
+    <div class="rgpd-form">
+        <input type="checkbox" id="rgpd" name="rgpd">
+        <label for="rgpd">J'accepte les conditions de la Règlementation Générale sur la Protection des Données (RGPD).</label>
+    </div>
+    <div class="newsletter-form">
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Recevez les nouveautés, offres et dernières tendances par e-mail. Sélectionnez les contenus qui vous intéressent ou désabonnez-vous à tout moment.</label>
+    </div>
+    
+</body>
+
+</html>

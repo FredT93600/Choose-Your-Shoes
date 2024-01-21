@@ -1,0 +1,10 @@
+.section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    /* background-color: #8df11a; */
+}

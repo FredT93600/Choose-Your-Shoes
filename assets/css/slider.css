@@ -1,0 +1,28 @@
+i.fa-chevron-left {
+  color: #9d9d9d96;
+  font-size: 350%;
+  translate: 60px;
+}
+
+i.fa-chevron-right {
+  color: #9d9d9d96;
+  font-size: 350%;
+  translate: -90px;
+}
+
+.carousel-title {
+  font-size: 2em;
+  text-align: center;
+  animation: blink 2s linear infinite;
+}
+
+.imgCarousel {
+  /* ... autres propriétés ... */
+  margin: 0 5px; /* Ajoute une marge de 10px à gauche et à droite */
+  border-radius: 5px;
+}
+@keyframes blink {
+  0% {color: gold;}
+  50% {color: blue;}
+  100% {color: gold;}
+}
